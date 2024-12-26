@@ -8,17 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Kiran Kumari HomePage"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Kiran Kumari"
 description              : &description "personal description"
-url                      : https://sabyasachisharma.github.io/kiran-kumari.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://sabyasachisharma.github.io/kiran-kumari.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/sabyasachisharma/kiran-kumari.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
   avatar           : "profile.jpeg"
@@ -28,13 +25,13 @@ author:
   location         : "Berlin, Germany"
   employer         : "Max Planck Institute for Infection Biology"
   uri              : # URL
-  email            : "kiran.kumari@utexas.edu" 
+  email            : "kumari@mpiib-berlin.mpg.de" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=xMKmSYEAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-6853-3722"
+  orcid            : "https://orcid.org/0000-0002-6853-3722"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -44,7 +41,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/kumarikiran"
+  github           : "kumarikiran"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -58,7 +55,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/kiran-asha-kumari/"
+  linkedin         : "kiran-asha-kumari"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -80,8 +77,8 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  # conferences:
+  #   title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
