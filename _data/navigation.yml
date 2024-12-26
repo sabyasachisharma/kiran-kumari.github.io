@@ -13,6 +13,8 @@ main:
     
   - title: "CV"
     url: /files/resume.pdf
+  # - title: "Gallery"
+  #   url: /gallery/
     
   # - title: "Gallery"
   #   url: /markdown/

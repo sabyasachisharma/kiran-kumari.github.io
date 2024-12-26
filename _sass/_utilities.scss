@@ -193,6 +193,16 @@ body:hover .visually-hidden button {
   margin-right: 0.5em;
 }
 
+.author-employer {
+  white-space: wrap; /* Prevents text from wrapping */
+  overflow: hidden;    /* Hides text overflow */
+  text-overflow: ellipsis; /* Adds "..." for overflow */
+  max-width: 100%;    /* Ensures it adapts to container width */
+  display: inline-block; /* Keeps text inline with the icon */
+  padding-right: 0.5em; /* Space between icon and text */
+  margin-right: 0.5em; /* Additional space for better layout */
+}
+
 /* social icons*/
 
 .social-icons {
